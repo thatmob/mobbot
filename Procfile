@@ -1,1 +1,1 @@
-app: bin/hubot -a irc
+app: bin/hubot -a irc --name mobbot
