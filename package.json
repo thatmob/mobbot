@@ -27,7 +27,9 @@
     "hubot":         ">= 2.6.0 < 3.0.0",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
     "optparse": "1.0.3",
-    "hubot-irc": "*"
+    "hubot-irc": "*",
+    "ntwitter": "0.2.10",
+    "underscore": "1.5.1"
   },
 
   "engines": {
