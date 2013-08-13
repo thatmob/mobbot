@@ -29,7 +29,8 @@
     "optparse": "1.0.3",
     "hubot-irc": "*",
     "ntwitter": "0.2.10",
-    "underscore": "1.5.1"
+    "underscore": "1.5.1",
+    "xml2js": "0.1.14"
   },
 
   "engines": {
