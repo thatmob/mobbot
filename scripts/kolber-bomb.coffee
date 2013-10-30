@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   hubot kolber me - brings up kolber images
+#   hubot kolber bomb - brings up kolber images
 #
 # Author:
 #   kolber
@@ -19,11 +19,11 @@ requestImage = (msg, url) ->
       requestImage msg, res.headers.location
 
 module.exports = (robot) ->
-  robot.respond /kolber me\s?(\d+)?/i, (msg) ->
-    count = msg.match[1] || 2
+  robot.respond /kolber bomb\s?(\d+)?/i, (msg) ->
+    count = msg.match[1] - 1 || 2
     msg.http("http://xxx.kolber.info/images.json")
       .get() (err, res, body) ->
         data = JSON.parse(body)
-        idx = Math.floor(Math.random() * (data.length - 2))
         for i in [0..count]
+          idx = Math.floor(Math.random() * (data.length - 2))
           msg.send "http://xxx.kolber.info/"+data[idx + i]
