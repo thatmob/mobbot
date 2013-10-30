@@ -1,6 +1,6 @@
 # John me
 #
-# ship it - Display a motivation squirrel
+# Display a disgusting john
 #
 
 johns = [
