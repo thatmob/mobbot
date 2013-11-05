@@ -16,4 +16,4 @@
 
 module.exports = (robot) ->
   robot.hear /show me upstairs/i, (msg) ->
-    msg.send http://look.upstai.rs/image.jpg
+    msg.send "http://look.upstai.rs/image.jpg"
