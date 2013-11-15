@@ -4,7 +4,7 @@
 #
 
 dailink = [
-  "http://media.tumblr.com/e9917b869f7d1fbaa945c9aaea6e7399/tumblr_inline_mlie60ge0J1qz4rgp.gif",
+  "http://i.imgur.com/067JD.gif",
 ]
 
 module.exports = (robot) ->
