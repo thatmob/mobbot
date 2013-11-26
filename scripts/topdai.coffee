@@ -1,10 +1,10 @@
 # dai
 #
-# If anyone mentions dai - a flying penis takes off behind Tom Cruise.
+# If anyone mentions dai -
 #
 
 dailink = [
-  "http://i.imgur.com/067JD.gif",
+  "http://www.sabotagetimes.com/wp-content/uploads/wales.jpg",
 ]
 
 module.exports = (robot) ->
